@@ -17,5 +17,6 @@ get '/goodbye' do
 end
 
 get '/cat' do
- erb(:index)
-end
+  @name = ['Amigo', 'Oscar', 'Viking'].sample
+  erb(:index)
+ end
