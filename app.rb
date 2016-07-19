@@ -17,7 +17,5 @@ get '/goodbye' do
 end
 
 get '/cat' do
-  '<div style="border: dashed red 3px">
-  <img src="http://bit.ly/1eze8aE" >
-  </div>'
+ erb(:index)
 end
