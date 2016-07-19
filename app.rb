@@ -15,3 +15,9 @@ end
 get '/goodbye' do
   'Bye, loser!'
 end
+
+get '/cat' do
+  '<div style="border: dashed red 3px">
+  <img src="http://bit.ly/1eze8aE" >
+  </div>'
+end
